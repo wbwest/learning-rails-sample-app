@@ -1,4 +1,5 @@
-class LinksController < ApplicationController
+class LinksController < ApplicationControlle
+  #adding commentr
   before_filter :login_required, :except => [:list]
   # GET /links
   # GET /links.xml
